@@ -1,0 +1,270 @@
+/*-------------------DEFS MAIN DIVS-------------------*/
+
+
+	body {
+		background-image: url(bg-image.jpg);
+		font-family: 'Zen Kaku Gothic Antique', sans-serif;
+	}
+
+	main {
+		width: 800px;
+		height: 800px;
+		position: absolute;
+		left: 300px;
+		top: 70px;
+		border-radius: 20px;
+		backdrop-filter: blur(5px);
+		background-color: rgba(100, 100, 100, 0.50);
+
+	}
+
+
+	#cabecalho {
+		width: 800px;
+		height: 130px;
+		position: absolute;
+		display: block;
+		bottom: 670px;
+		font-size: 30px;
+		font-family: 'Zen Kaku Gothic Antique', sans-serif;
+		text-align: center;
+		line-height: 50px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		color: rgba(194, 222, 194, 1);
+	  	background-color: rgba(23, 106, 76, 0.20);
+	  	backdrop-filter: blur(5px);
+	  	
+	}
+
+
+	.parte-central {
+		width: 750px;
+		height: 540px;
+		top: 130px;
+		position: absolute;
+		padding: 50px 50px 50px 50px;
+	}
+
+	#rodape {
+		width: 800px;
+		height: 130px;
+		position: absolute;
+		display: block;
+		top: 670px;
+		border-bottom-right-radius: 20px;
+		border-bottom-left-radius: 20px;
+		background-color: rgba(23, 106, 76, 0.30);
+		backdrop-filter: blur(5px);
+		
+	}
+
+
+/*-------------------DEFS BOTÃO-------------------*/
+
+
+	#botao-gerar {
+		width: 230px;
+		height: 70px;
+		transition: 0.5s scale;
+		border: rgba(85, 99, 85, 1) solid;
+		border-width: 3px;
+		background: rgba(200, 200, 200, 0.30);
+		transition: background, border-color 0.5s;
+		backdrop-filter: blur(10px);
+		border-radius: 5px;
+		font-family: 'Zen Kaku Gothic Antique', sans-serif;
+		font-size: 20px;
+		color: rgba(194, 222, 194, 1);
+		position: absolute;
+		top: 80px;
+	}
+
+	#botao-gerar:hover {
+		background: rgba(85, 99, 85, 1);
+		border-color: rgba(194, 222, 194, 1);
+	}
+
+	#botao-gerar:active {
+		width: 220px;
+		height: 60px;
+		transform: scale(1.0);
+	}
+
+
+/*-------------------DEFS LISTAS E OBJETOS-------------------*/
+
+	#container-botao {
+		position: absolute;
+		width: 230px;
+		height: 200px;
+	}
+
+	#conteiner-combinacoes {
+		background-color: rgba(23, 106, 76, 0.30);
+		backdrop-filter: blur(5px);
+		display: inline-block;
+		vertical-align: middle;
+		border-radius: 20px;
+		width: 450px;
+		height: 200px;
+		margin-left: 20px;
+		right: 100px;
+		top: 70px;
+		position: absolute;
+
+
+	}
+
+	.lista-combinacoes {
+		display: inline-block;
+		text-align: center;
+		line-height: 30%;
+		padding: 0 0 3px 3px;
+	}
+
+	.amostra {
+		backdrop-filter: blur(5px);
+		background-color: rgba(200, 200, 200, 0.50);
+		border: rgba(85, 99, 85, 1) solid;
+		border-width: 3px;
+		width: 100px;
+		height: 120px;
+		transition: transform, border 0.5s;;
+		margin: 20px;
+		display: inline-block;
+		border-radius: 10PX;
+		margin: 20px;
+	}
+
+	.amostra:hover {
+		transform: scale(1.2);
+		border-color: rgba(194, 222, 194, 1);
+	}
+
+	hr {
+		height: 3px;
+		width: 80%;
+		background-color: rgba(194, 222, 194, 1);
+		border: none;
+		top: 53%;
+		position: absolute;
+		margin: 0 10% 0 10%;
+	}
+
+
+	.paleta-anterior {
+		font-family: 'Zen Kaku Gothic Antique', sans-serif;
+		font-size: 25px;
+		color: rgba(194, 222, 194, 1);
+		top: 54%;
+		position: absolute;
+		left: 40%;
+	}
+
+	.amostras-anteriores {
+		background-color: rgba(23, 106, 76, 0.30);
+		backdrop-filter: blur(5px);
+		vertical-align: middle;
+		border-radius: 20px;
+		width: 400px;
+		height: 140px;
+		margin-left: 20px;
+		right: 25%;
+		top: 60%;
+		position: absolute;
+	}
+
+	.amostra-anterior {
+		backdrop-filter: blur(5px);
+		background-color: rgba(200, 200, 200, 0.50);
+		border: rgba(85, 99, 85, 1) solid;
+		border-width: 3px;
+		width: 80px;
+		height: 80px;
+		transition: transform, border 0.2s;
+		margin: 25px;
+		display: inline-block;
+		border-radius: 10PX;
+		margin: 10px;
+		left: 50px;
+		top: 10px;
+
+	}
+
+	.amostra-anterior:hover {
+		transform: scale(1.2);
+		border-color: rgba(194, 222, 194, 1);
+
+	}
+
+	.lista-combinacoes2{
+		position: absolute;
+		left: 37px;
+	}
+
+
+	.lista-hex-anteriores {
+		position: absolute;
+		width: 400px;
+		top: 107px;
+		left: 30px;
+	}
+
+	.hex-amostra {
+		font-family: 'Zen Kaku Gothic Antique', sans-serif;
+		font-size: 15px;
+		color: rgba(194, 222, 194, 1);
+		border: rgba(194, 222, 194, 1) solid 3px;
+		border-radius: 5px;
+		width: 6em;
+		margin: 0 10px 0px 10px;
+		text-align: center;
+	}
+
+	/*----------HEX-ANTERIORES POR POR ID*----------*/
+		
+		#hexlist1 {
+			position: absolute;
+			top: 160px;
+			left: 40px;
+		}
+
+
+		#hex-grupo-a-1 {
+			position: absolute;
+			right: 6px;
+		}
+
+		#hex-grupo-a-2 {
+			position: absolute;
+			right: 156px;
+		}
+
+		#hex-grupo-a-3 {
+			position: absolute;
+			left: -23px;
+		}
+
+		/*---------PALETA ANTERIOR--------*/	
+
+		#hexlist2 {
+			position: absolute;
+			left: 20px;
+		}
+
+
+		#hex-grupo-b-1 {
+			position: absolute;
+			left: 13px;
+		}
+
+		#hex-grupo-b-2 {
+			position: absolute;
+			left: 123px;
+		}
+
+		#hex-grupo-b-3 {
+			position: absolute;
+			left: 233px;
+		}
